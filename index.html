@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jogo da Velha</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <script defer src="script.js"></script>
+
+  <header>
+    
+    <div class="Titulo"> 
+      
+      <h1> Jogo da velha </h1>
+    
+    </div>
+    
+  </header>
+  
+  <div class = "Cadastro">
+    
+    <div class="ret_usuario" > 
+
+      <h2> Usuário X </h2>
+    
+      <input type="text" class="Input" required minlength="4" maxlength="22"     
+      size="14">
+      
+    </div>
+
+    <div class="ret_usuario" > 
+
+      <h2> Usuário O </h2>
+      <input type="text" class="Input" required
+      minlength="4" maxlength="22" size="14">
+    
+    </div>
+    
+  </div>
+
+  <div class=BotaoComecar>
+    
+    <button onclick= "Começar()" class="button_c"> <h2> Começar </h2> </button>
+
+    
+  </div>
+
+  <div class="Area_mensagens">
+    
+    <div class="mensagens">
+      
+      <h2 id="mensa"> Insira o nome dos partipantes para começar!</h2>
+    
+    </div>
+    
+  </div>
+
+
+  <div class="AreaJogo">   
+    
+    <table class="box_jogo">
+      <tr>
+        <td onclick= "Escrever(11)" id="11"> 
+        </td>
+        <td onclick= "Escrever(12)" id="12"> 
+        </td>
+        <td onclick= "Escrever(13)" id="13"> 
+        </td>
+      </tr>
+      
+      <tr>
+        <td onclick= "Escrever(21)" id="21"> 
+        </td>
+        <td onclick= "Escrever(22)" id="22"> 
+        </td>
+        <td onclick= "Escrever(23)" id="23">
+        </td>       
+      </tr>
+
+      <tr>
+        <td onclick= "Escrever(31)"  id="31"> 
+        </td>
+        <td onclick= "Escrever(32)"  id="32"> 
+        </td>
+        <td onclick= "Escrever(33)"  id="33"> 
+        </td>
+      </tr>
+    
+    </table>
+  
+  </div>
+
+    <div class=BotaoRecomecar>
+    
+    <button onclick= "Recomecar()" class="button_c"> <h2> Recomeçar </h2> </button>
+
+    
+  </div>
+
+</body>
+
+</html>

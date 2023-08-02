@@ -1,0 +1,163 @@
+/*
+color1 { #524e4e }; preto
+color2 { #ff2b73 }; rosa
+color3 { #ff5a6a }; pessego
+color4 { #ff9563 }; laranja
+color5 { #ffcd37 }; amarelo
+*/
+
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #ff78a6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* no display flex a direção normal dos elementos é ficar em linha, quando coloca essa tag os elementos ficam um em baixo do outro em coluna */
+  align-items: center;
+  font-family: "Courier New";
+}
+
+.Titulo{
+  display: flex;
+  justify-content: center;
+  width: 440px;
+  height: 70px;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.Cadastro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 940px;
+  height: 305px;
+}
+
+.BotaoComecar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 140px;
+}
+
+.BotaoRecomecar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 140px;
+  visibility: hidden;
+}
+
+.Area_mensagens{
+  width: 990px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AreaJogo {
+  width: 989px;
+  height: 690px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 50px;
+  color: #FFCD37;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #524E4E;  
+  font-family: "Courier New";
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #524E4E;  
+}
+
+.ret_usuario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 280px;
+  height: 230px;
+  background: #FF9563;
+  border: 10px solid #FFCD37;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.Input {
+  background-color: #ff5a6a;
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button_c {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 60px;
+  background: #FFCD37;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mensagens{
+  display: flex;
+  justify-content: center;
+  width: 880px;
+  height: 80px;
+  background: #FFCD37;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box_jogo {
+  box-sizing: border-box;
+  width: 630px;
+  height: 630px;
+  background: #FF5A6A;
+  border: 20px solid #FFCD37;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  visibility: hidden;
+}
+
+tr{
+  border: 5px solid #524e4e;
+  border-radius: 15px;
+  font-size: 50px;
+  width: 210px;
+  height: 210px;
+}
+
+td{
+  border: 5px solid #524e4e;
+  border-radius: 15px;
+  font-size: 50px;
+  width: 210px;
+  height: 210px;
+}
